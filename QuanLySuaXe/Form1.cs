@@ -13,7 +13,7 @@ namespace QuanLySuaXe
 {
     public partial class Form1 : Form
     {
-        string strConnectString = @"Data Source=DESKTOP-DLOT65Q\SQLEXPRESS;Initial Catalog=QuanLySuaXe;Integrated Security=True";
+        string strConnectString = @"Data Source=DESKTOP-2SDIED0\SQLEXPRESS;Initial Catalog=QuanLySuaXe;Integrated Security=True";
         SqlConnection conn = null;
         SqlDataAdapter daXe = null;
         SqlDataAdapter daKhachhang = null;
@@ -28,9 +28,9 @@ namespace QuanLySuaXe
         private void Form1_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'quanLySuaXeDataSet.Xe' table. You can move, or remove it, as needed.
-            this.xeTableAdapter.Fill(this.quanLySuaXeDataSet.Xe);
+            //this.xeTableAdapter.Fill(this.quanLySuaXeDataSet.Xe);
             // TODO: This line of code loads data into the 'quanLySuaXeDataSet.KhachHang' table. You can move, or remove it, as needed.
-            this.khachHangTableAdapter.Fill(this.quanLySuaXeDataSet.KhachHang);
+           // this.khachHangTableAdapter.Fill(this.quanLySuaXeDataSet.KhachHang);
             // TODO: This line of code loads data into the 'quanLySuaXeDataSet.KhachHang' table. You can move, or remove it, as needed.
             //this.khachHangTableAdapter.Fill(this.quanLySuaXeDataSet.KhachHang);
             // TODO: This line of code loads data into the 'quanLySuaXeDataSet1.KhachHang' table. You can move, or remove it, as needed.

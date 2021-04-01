@@ -62,15 +62,15 @@ namespace QuanLySuaXe
             this.bCancel = new System.Windows.Forms.Button();
             this.bInsert = new System.Windows.Forms.Button();
             this.dgvXe = new System.Windows.Forms.DataGridView();
-            this.MaXe1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TenXe1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Hang1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cbKhachHang = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.quanLySuaXeDataSet = new QuanLySuaXe.QuanLySuaXeDataSet();
             this.KhachHang = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.khachHangTableAdapter = new QuanLySuaXe.QuanLySuaXeDataSetTableAdapters.KhachHangTableAdapter();
             this.btMode = new System.Windows.Forms.Button();
             this.xeTableAdapter = new QuanLySuaXe.QuanLySuaXeDataSetTableAdapters.XeTableAdapter();
+            this.MaXe1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenXe1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Hang1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cbKhachHang = new System.Windows.Forms.DataGridViewComboBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKhachHang)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvXe)).BeginInit();
@@ -402,31 +402,6 @@ namespace QuanLySuaXe
             this.dgvXe.TabIndex = 18;
             this.dgvXe.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
-            // MaXe1
-            // 
-            this.MaXe1.DataPropertyName = "MaXe";
-            this.MaXe1.HeaderText = "Mã Xe";
-            this.MaXe1.Name = "MaXe1";
-            // 
-            // TenXe1
-            // 
-            this.TenXe1.DataPropertyName = "TenXe";
-            this.TenXe1.HeaderText = "Tên xe";
-            this.TenXe1.Name = "TenXe1";
-            // 
-            // Hang1
-            // 
-            this.Hang1.DataPropertyName = "HangXe";
-            this.Hang1.HeaderText = "Hãng";
-            this.Hang1.Name = "Hang1";
-            // 
-            // cbKhachHang
-            // 
-            this.cbKhachHang.DataPropertyName = "TenKH";
-            this.cbKhachHang.HeaderText = "Khách Hàng";
-            this.cbKhachHang.Name = "cbKhachHang";
-            this.cbKhachHang.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
             // quanLySuaXeDataSet
             // 
             this.quanLySuaXeDataSet.DataSetName = "QuanLySuaXeDataSet";
@@ -455,6 +430,31 @@ namespace QuanLySuaXe
             // xeTableAdapter
             // 
             this.xeTableAdapter.ClearBeforeFill = true;
+            // 
+            // MaXe1
+            // 
+            this.MaXe1.DataPropertyName = "MaXe";
+            this.MaXe1.HeaderText = "Mã Xe";
+            this.MaXe1.Name = "MaXe1";
+            // 
+            // TenXe1
+            // 
+            this.TenXe1.DataPropertyName = "TenXe";
+            this.TenXe1.HeaderText = "Tên xe";
+            this.TenXe1.Name = "TenXe1";
+            // 
+            // Hang1
+            // 
+            this.Hang1.DataPropertyName = "HangXe";
+            this.Hang1.HeaderText = "Hãng";
+            this.Hang1.Name = "Hang1";
+            // 
+            // cbKhachHang
+            // 
+            this.cbKhachHang.DataPropertyName = "TenKH";
+            this.cbKhachHang.HeaderText = "Khách Hàng";
+            this.cbKhachHang.Name = "cbKhachHang";
+            this.cbKhachHang.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
             // Form1
             // 
